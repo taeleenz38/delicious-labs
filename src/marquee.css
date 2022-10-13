@@ -1,0 +1,16 @@
+.marquee p {
+  text-align: center;
+  font-size: 200px;
+  font-weight: 500;
+  margin: auto;
+  margin-top: 210px;
+}
+
+.marquee img {
+  height: 180px;
+  width: 180px;
+}
+
+.marquee {
+  overflow: hidden;
+}
