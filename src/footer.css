@@ -31,26 +31,3 @@
   display: flex;
   padding: 0;
 }
-
-.footer2 {
-  display: flex;
-  box-sizing: border-box;
-  justify-content: flex-end;
-  align-items: flex-end;
-  position: absolute;
-  width: 100vw;
-  padding: 20px;
-  bottom: 0;
-}
-
-.footer2 img {
-  width: 45px;
-  height: 45px;
-  margin-left: 9px;
-  transition: all 0.2s;
-}
-
-.footer2 img:hover {
-  filter: invert(13%) sepia(71%) saturate(4296%) hue-rotate(257deg) brightness(86%) contrast(115%);
-  transform: translateY(-0.15rem);
-}

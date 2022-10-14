@@ -4,7 +4,6 @@ import Navbar2 from './components/Navbar2'
 import Navbar3 from './components/Navbar3'
 import Navbar4 from './components/Navbar4'
 import Footer from './components/Footer'
-import Footer2 from './components/Footer2'
 import data from './components/data'
 import Card from './components/Card'
 import datateam from './components/datateam'
@@ -48,7 +47,6 @@ export default function App() {
           <div className="card-list">
             {cards}
           </div>
-          <Footer2 />
         </div>
 
         <div className="inline-page ">
@@ -56,7 +54,6 @@ export default function App() {
           <div className="grid-wrapper">
             {teamcards}
           </div>
-          <Footer2 />
         </div>
 
         <div className="inline-page ">
@@ -66,7 +63,6 @@ export default function App() {
             <br></br>
             <p>Exciting things coming soon...</p>
           </div>
-          <Footer2 />
         </div>
       </div >
     </div >
