@@ -45,7 +45,7 @@ export default function App() {
         </div>
         <div className="inline-page ">
           <Navbar2 />
-          <div className="card-list overflow-auto">
+          <div className="card-list">
             {cards}
           </div>
           <Footer2 />

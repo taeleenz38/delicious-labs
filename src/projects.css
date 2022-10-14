@@ -3,12 +3,13 @@
   height: 700px;
   width: 90%;
   justify-content: space-around;
-  align-items: flex-start;
   margin: 55px auto;
   padding: 0;
+  padding-top: 15px;
 }
 
 .card-list a {
+  margin-top: 10px;
   transition: all 0.25s;
 }
 
@@ -20,6 +21,7 @@
   display: flex;
   flex-direction: column;
   width: 500px;
+  height: 666px;
   border: none;
 }
 
