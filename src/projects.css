@@ -1,0 +1,46 @@
+.card-list {
+  display: flex;
+  height: 700px;
+  width: 90%;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin: 55px auto;
+  padding: 0;
+}
+
+.card-list a {
+  transition: all 0.25s;
+}
+
+.card-list a:hover {
+  transform: scale(1.02);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  border: none;
+}
+
+.card img {
+  width: 500px;
+  height: 500px;
+}
+
+.card h4 {
+  font-size: 25px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.card p {
+  font-size: 13px;
+  font-weight: 500;
+  margin: 0;
+  margin-top: 6px;
+}
+
+.info {
+  padding: 12px;
+}

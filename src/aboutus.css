@@ -1,0 +1,9 @@
+.aboutus {
+  width: 1500px;
+  margin: 190px auto;
+}
+
+.aboutus p {
+  font-weight: 500;
+  font-size: 45px;
+}

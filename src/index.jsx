@@ -5,6 +5,9 @@ import './global.css'
 import "./navbar.css"
 import "./marquee.css"
 import "./footer.css"
+import "./projects.css"
+import "./team.css"
+import "./aboutus.css"
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(<App />)

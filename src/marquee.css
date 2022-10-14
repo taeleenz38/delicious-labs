@@ -1,14 +1,22 @@
 .marquee p {
   text-align: center;
   font-size: 200px;
+  width: 90%;
   font-weight: 500;
   margin: auto;
+  margin: 0 auto;
   margin-top: 210px;
+
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .marquee img {
-  height: 180px;
-  width: 180px;
+  height: 160px;
+  width: 160px;
+  margin: 0 20px;
 }
 
 .marquee {
