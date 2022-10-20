@@ -16,6 +16,6 @@ export default [
     id: 3,
     title: "Journey",
     img: "journey.jpeg",
-    description: "A chill vibes art project where holders purchase a train ticket & board a train, and along the way they visit a number of stops, receive souvenirs, see the sights & ultimately enjoy the journey. Holders of tickets will be able to board at each stop, and can sell/trade their tickets away to new holders. Establish a community of people who enjoy travelling, chill vibes & cute art - possibly artist networking as well."
+    description: "A chill vibes art project where holders purchase a train ticket & board a train, and along the way they visit a number of stops, receive souvenirs, see the sights & ultimately enjoy the journey."
   }
 ]
