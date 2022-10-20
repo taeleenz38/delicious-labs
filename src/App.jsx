@@ -37,33 +37,39 @@ export default function App() {
       <div className="wrapper">
         <div className="inline-page ">
           <Navbar />
-          <div className="marquee">
-            <p>Delicious <img src="/images/vector.png" alt="logo" /> Labs</p>
+          <div className="center">
+            <div className="marquee">
+              <p>Delicious <img src="/images/vector.png" alt="logo" /> Labs</p>
+            </div>
           </div>
           <Footer />
         </div>
         <div className="inline-page ">
           <Navbar2 />
           <div className="center">
-          <div className="card-list">
-            {cards}
-          </div>
+            <div className="card-list">
+              {cards}
+            </div>
           </div>
         </div>
 
         <div className="inline-page ">
           <Navbar3 />
-          <div className="grid-wrapper">
-            {teamcards}
+          <div className="center">
+            <div className="grid-wrapper">
+              {teamcards}
+            </div>
           </div>
         </div>
 
         <div className="inline-page ">
           <Navbar4 />
-          <div className="aboutus">
-            <p>We are a small collective based internationally but focusing on building small scale NFT projects. We love to think outside the blockchain and create experiences that holders want to be apart of.</p>
-            <br></br>
-            <p>Exciting things coming soon...</p>
+          <div className="center">
+            <div className="aboutus">
+              <p>We are a small collective based internationally but focusing on building small scale NFT projects. We love to think outside the blockchain and create experiences that holders want to be apart of.</p>
+              <br></br>
+              <p>Exciting things coming soon...</p>
+            </div>
           </div>
         </div>
       </div >

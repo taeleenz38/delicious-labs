@@ -3,10 +3,7 @@
   font-size: 200px;
   width: 90%;
   font-weight: 500;
-  margin: auto;
   margin: 0 auto;
-  margin-top: 210px;
-
   padding: 0;
   display: flex;
   justify-content: center;
@@ -31,6 +28,18 @@
   .marquee img {
     height: 115px;
     width: 115px;
+    margin: 0 20px;
+  }
+}
+
+@media (max-width: 1150px) {
+  .marquee p {
+    font-size: 90px;
+  }
+
+  .marquee img {
+    height: 70px;
+    width: 70px;
     margin: 0 20px;
   }
 }

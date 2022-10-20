@@ -1,9 +1,31 @@
 .aboutus {
   width: 1500px;
-  margin: 190px auto;
 }
 
 .aboutus p {
   font-weight: 500;
   font-size: 45px;
+}
+
+@media (max-width: 1550px) {
+  .aboutus {
+    width: 1200px;
+  }
+
+  .aboutus p {
+    font-weight: 500;
+    font-size: 35px;
+  }
+}
+
+
+@media (max-width: 1280px) {
+  .aboutus {
+    width: 900px;
+  }
+
+  .aboutus p {
+    font-weight: 500;
+    font-size: 25px;
+  }
 }
