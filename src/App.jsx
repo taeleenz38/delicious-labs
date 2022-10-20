@@ -44,8 +44,10 @@ export default function App() {
         </div>
         <div className="inline-page ">
           <Navbar2 />
+          <div className="center">
           <div className="card-list">
             {cards}
+          </div>
           </div>
         </div>
 

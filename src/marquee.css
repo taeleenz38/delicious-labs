@@ -22,3 +22,15 @@
 .marquee {
   overflow: hidden;
 }
+
+@media (max-width: 1500px) {
+  .marquee p {
+    font-size: 150px;
+  }
+
+  .marquee img {
+    height: 115px;
+    width: 115px;
+    margin: 0 20px;
+  }
+}
