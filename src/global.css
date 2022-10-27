@@ -44,4 +44,36 @@ body {
   scroll-behavior: smooth;
 }
 
+/* mobile version css */
+
+.outer-wrapper-mobile {
+  font-family: 'Manrope', sans-serif;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.vertical-page {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  scroll-snap-align: start;
+  scroll-behavior: smooth;
+}
+
 /* switch to veritcal scroll */
+@media (max-width: 430px) {
+
+  .outer-wrapper {
+    display: none;
+  }
+}
+
+@media (min-width: 431px) {
+  .outer-wrapper-mobile {
+    display: none;
+  }
+}
