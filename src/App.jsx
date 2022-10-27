@@ -5,6 +5,7 @@ import Navbar3 from './components/Navbar3'
 import Navbar4 from './components/Navbar4'
 import Navbarmobile from './components/Navbarmobile'
 import Footer from './components/Footer'
+import Footermobile from './components/Footer-mobile'
 import data from './components/data'
 import Card from './components/Card'
 import datateam from './components/datateam'
@@ -43,6 +44,7 @@ export default function App() {
               <p>Delicious <img src="/images/vector.png" alt="logo" /> Labs</p>
             </div>
           </div>
+          <Footermobile />
         </div>
         <div className="vertical-page">
 

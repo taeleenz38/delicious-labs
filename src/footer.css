@@ -31,3 +31,38 @@
   display: flex;
   padding: 0;
 }
+
+/* Mobile css */
+
+.footer-mobile {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 19px;
+}
+
+.footer-mobile p {
+  font-size: 12px;
+  line-height: 100%;
+  margin: 0;
+}
+
+.footer-mobile img {
+  width: 32px;
+  height: 32px;
+  margin-left: 7px;
+  transition: all 0.2s;
+}
+
+.footer-mobile img:focus {
+  filter: invert(13%) sepia(71%) saturate(4296%) hue-rotate(257deg) brightness(86%) contrast(115%);
+  transform: translateY(-0.15rem);
+}
+
+.footer-mobile .text {
+  width: 76px;
+}

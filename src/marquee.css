@@ -45,3 +45,27 @@
 }
 
 /* mobile css */
+
+.center-mobile {
+  height: 80vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.marquee-mobile p {
+  font-size: 80px;
+  font-weight: 500;
+  text-align: right;
+  margin-right: 19px;
+  line-height: 100%;
+}
+
+.marquee-mobile img {
+  width: 55px;
+  height: 55px;
+  margin: 0;
+  margin-right: -10px;
+  margin-bottom: 15px;
+}

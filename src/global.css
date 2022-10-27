@@ -48,17 +48,15 @@ body {
 
 .outer-wrapper-mobile {
   font-family: 'Manrope', sans-serif;
-  overflow-y: scroll;
-  scroll-snap-type: y mandatory;
-  scroll-behavior: smooth;
-  overflow-x: hidden;
-  scrollbar-width: none;
-  -ms-overflow-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .vertical-page {
   height: 100vh;
   width: 100vw;
+  padding: 0;
+  margin: 0;
   position: relative;
   scroll-snap-align: start;
   scroll-behavior: smooth;
