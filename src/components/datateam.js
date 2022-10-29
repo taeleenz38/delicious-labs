@@ -14,7 +14,7 @@ export default [
   },
   {
     id: 3,
-    title: "GUCCIDIKHEAD",
+    title: "GUCCIDH",
     img: "gucci.png",
     role: "Lead Dev | Front End"
   },
