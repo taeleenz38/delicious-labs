@@ -4,6 +4,7 @@ import Navbar2 from './components/Navbar2'
 import Navbar3 from './components/Navbar3'
 import Navbar4 from './components/Navbar4'
 import Navbarmobile from './components/Navbarmobile'
+import Navbar2mobile from './components/Navbar2-mobile'
 import Footer from './components/Footer'
 import Footermobile from './components/Footer-mobile'
 import data from './components/data'
@@ -47,7 +48,10 @@ export default function App() {
           <Footermobile />
         </div>
         <div className="vertical-page">
-
+          <Navbar2mobile />
+          <div className="cards-list-mobile">
+            {cards}
+          </div>
         </div>
         <div className="vertical-page">
 

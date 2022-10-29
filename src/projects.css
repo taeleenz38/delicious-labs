@@ -159,3 +159,48 @@
     margin-top: 4px;
   }
 }
+
+@media (max-width: 470px) {
+  .card {
+    width: 90%;
+    border: none;
+  }
+
+  .card img {
+    width: 330px;
+    height: 330px;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 6px;
+    width: 100%;
+    margin-bottom: 25px;
+  }
+
+  .info p {
+    font-size: 10px;
+    text-align: left;
+    width: 230px;
+    margin-top: 0;
+  }
+
+  .info h4 {
+    font-size: 16px;
+    text-align: left;
+    width: 90px;
+  }
+}
+
+.cards-list-mobile {
+  width: 100vw;
+  height: 100vh;
+  margin-top: 45px;
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
+  align-items: center;
+}

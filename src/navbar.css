@@ -129,3 +129,27 @@
   color: #5A5A5A;
   line-height: 100%;
 }
+
+.navbar2-mobile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  padding-left: 16px;
+  padding-top: 15px;
+  padding-right: 8px;
+}
+
+.navbar2-mobile h2 {
+  font-weight: 500;
+  font-size: 25px;
+  margin-bottom: 0;
+}
+
+.navbar2-mobile p {
+  font-weight: 500;
+  font-size: 10px;
+  width: 165px;
+  line-height: 100%;
+  margin-bottom: 0;
+}
