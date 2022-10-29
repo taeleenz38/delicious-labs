@@ -20,9 +20,9 @@ export default [
   },
   {
     id: 4,
-    title: "realclaimer",
-    img: "realclaimer.png",
-    role: "Advisor"
+    title: "Kaiyō",
+    img: "Kaiyo.PNG",
+    role: "Dev"
   },
   {
     id: 5,
@@ -47,5 +47,11 @@ export default [
     title: "hamburgirl",
     img: "jye.png",
     role: "Artist"
+  },
+  {
+    id: 9,
+    title: "realclaimer",
+    img: "realclaimer.png",
+    role: "Advisor"
   }
 ]
