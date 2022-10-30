@@ -106,7 +106,7 @@
 .grid-wrapper-mobile {
   margin: 0 auto;
   margin-top: 35px;
-  width: 86%;
+  width: 340px;
   height: calc(100vh - 230px);
   overflow: scroll;
   justify-content: center;
