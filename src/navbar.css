@@ -153,3 +153,46 @@
   line-height: 100%;
   margin-bottom: 0;
 }
+
+.navbar3-mobile {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  padding-left: 16px;
+  padding-top: 15px;
+  padding-right: 8px;
+}
+
+.navbar3-mobile h2 {
+  font-weight: 500;
+  font-size: 25px;
+  margin-bottom: 0;
+}
+
+.navbar3-info {
+  width: 180px;
+}
+
+.navbar3-mobile p {
+  width: 170px;
+  font-size: 10px;
+  font-weight: 500;
+  margin-bottom: 12px;
+  color: #5A5A5A;
+  line-height: 100%;
+}
+
+.navbar4-mobile {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  padding-left: 16px;
+  padding-top: 15px;
+  padding-right: 8px;
+}
+
+.navbar4-mobile h2 {
+  font-weight: 500;
+  font-size: 25px;
+  margin-bottom: 0;
+}

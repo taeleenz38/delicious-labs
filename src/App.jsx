@@ -5,6 +5,8 @@ import Navbar3 from './components/Navbar3'
 import Navbar4 from './components/Navbar4'
 import Navbarmobile from './components/Navbarmobile'
 import Navbar2mobile from './components/Navbar2-mobile'
+import Navbar3mobile from './components/Navbar3-mobile'
+import Navbar4mobile from './components/Navbar4-mobile'
 import Footer from './components/Footer'
 import Footermobile from './components/Footer-mobile'
 import data from './components/data'
@@ -54,10 +56,18 @@ export default function App() {
           </div>
         </div>
         <div className="vertical-page">
-
+          <Navbar3mobile />
+          <div className="grid-wrapper-mobile">
+            {teamcards}
+          </div>
         </div>
         <div className="vertical-page">
-
+          <Navbar4mobile />
+          <div className="aboutus-mobile">
+            <p>We are a small collective based internationally but focusing on building small scale NFT projects. We love to think outside the blockchain and create experiences that holders want to be apart of.</p>
+            <br></br>
+            <p>Exciting things coming soon...</p>
+          </div>
         </div>
       </div>
 

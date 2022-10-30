@@ -29,3 +29,14 @@
     font-size: 25px;
   }
 }
+
+.aboutus-mobile {
+  margin: 0 auto;
+  margin-top: 140px;
+  width: 92%;
+}
+
+.aboutus-mobile p {
+  font-size: 30px;
+  line-height: 100%;
+}

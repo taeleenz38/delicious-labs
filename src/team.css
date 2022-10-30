@@ -85,8 +85,8 @@
 
 @media (max-width: 768px) {
   .cardteam img {
-    width: 150px;
-    height: 150px;
+    width: 160px;
+    height: 160px;
   }
 
   .infoteam h4 {
@@ -101,4 +101,20 @@
     font-weight: 500;
     font-size: 11px;
   }
+}
+
+.grid-wrapper-mobile {
+  margin: 0 auto;
+  margin-top: 35px;
+  width: 100%;
+  height: calc(100vh - 150px);
+  overflow: scroll;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 160px 160px;
+  gap: 20px;
+}
+
+.grid-wrapper-mobile .cardteam {
+  width: 160px;
 }
