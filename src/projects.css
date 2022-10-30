@@ -200,8 +200,8 @@
   width: 85vw;
   height: 670px;
   margin-top: 45px;
+  margin-bottom: 250px;
   display: flex;
-  flex-direction: column;
   overflow: scroll;
   align-items: center;
 }
