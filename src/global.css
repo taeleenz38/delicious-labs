@@ -47,9 +47,13 @@ body {
 /* mobile version css */
 
 .outer-wrapper-mobile {
+  height: 100vh;
   font-family: 'Manrope', sans-serif;
+  overflow: scroll;
   padding: 0;
   margin: 0;
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
 }
 
 .vertical-page {
@@ -59,7 +63,6 @@ body {
   margin: 0;
   position: relative;
   scroll-snap-align: start;
-  scroll-behavior: smooth;
 }
 
 /* switch to veritcal scroll */
@@ -74,4 +77,21 @@ body {
   .outer-wrapper-mobile {
     display: none;
   }
+}
+
+
+.cards-list-mobile {
+  z-index: 100;
+}
+
+.grip-wrapper-mobile {
+  z-index: 100;
+}
+
+.aboutus-mobile {
+  z-index: 100;
+}
+
+.footer-mobile {
+  z-index: 200;
 }

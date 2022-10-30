@@ -49,16 +49,17 @@
 .center-mobile {
   height: 80vh;
   width: 100vw;
+  margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .marquee-mobile p {
+  width: 350px;
   font-size: 80px;
   font-weight: 500;
   text-align: right;
-  margin-right: 19px;
   line-height: 100%;
 }
 
