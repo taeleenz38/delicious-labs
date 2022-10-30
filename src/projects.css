@@ -198,10 +198,16 @@
 .cards-list-mobile {
   margin: 0 auto;
   width: 85vw;
-  height: 670px;
+  height: 700px;
   margin-top: 45px;
   margin-bottom: 250px;
   display: flex;
+  flex-direction: column;
   overflow: scroll;
   align-items: center;
+}
+
+.cards-list-mobile img {
+  width: 350px;
+  height: 350px;
 }
