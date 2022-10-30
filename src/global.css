@@ -47,7 +47,6 @@ body {
 /* mobile version css */
 
 .outer-wrapper-mobile {
-  height: 100vh;
   font-family: 'Manrope', sans-serif;
   overflow: scroll;
   padding: 0;

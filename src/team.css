@@ -107,7 +107,7 @@
   margin: 0 auto;
   margin-top: 35px;
   width: 86%;
-  height: calc(100vh - 150px);
+  height: calc(100vh - 230px);
   overflow: scroll;
   justify-content: center;
   display: grid;
